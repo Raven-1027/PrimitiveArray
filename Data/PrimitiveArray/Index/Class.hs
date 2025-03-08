@@ -5,7 +5,7 @@ import           Control.Applicative
 import           Control.DeepSeq (NFData(..))
 import           Control.Lens hiding (Index, (:>))
 import           Control.Monad.Except
-import           Control.Monad (liftM2)
+import           Control.Monad (liftM2,when)
 import           Data.Aeson
 import           Data.Binary
 import           Data.Data
